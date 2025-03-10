@@ -30,7 +30,8 @@ dependencies {
 
 	//JSP 추가 시작
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	implementation 'javax.servlet:jstl:1.2' // JSTL 지원
+	//implementation 'javax.servlet:jstl:1.2' // JSTL 지원
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0' // ✅ JSTL (Spring Boot 3.x용)
 	//JSP 추가 끝
 
 	compileOnly 'org.projectlombok:lombok'
